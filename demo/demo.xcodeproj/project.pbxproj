@@ -31,6 +31,19 @@
 		EFE74B381F1CD3AD00F6E91F /* ProtocolLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE74B351F1CD3AD00F6E91F /* ProtocolLabel.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EF9358B81F1D0AC100B7A855 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EFE74AEA1F1CD38400F6E91F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE74AEE1F1CD38400F6E91F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -203,6 +216,7 @@
 				EFE74AE61F1CD38400F6E91F /* Sources */,
 				EFE74AE71F1CD38400F6E91F /* Frameworks */,
 				EFE74AE81F1CD38400F6E91F /* Resources */,
+				EF9358B81F1D0AC100B7A855 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -441,6 +455,7 @@
 				EFE74B031F1CD38400F6E91F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
