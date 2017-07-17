@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'LN_Label'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.ios.deployment_target = '8.0'
   s.license  =  'MIT'
   s.summary  = 'a simple label make by LionNeo'
