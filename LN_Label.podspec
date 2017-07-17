@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
                           LN_Label 可以一行代码搞定富文本点击,项目需要Masonry库
                    DESC
   s.source   = { :git => 'https://github.com/LionNeo/LN_Label.git', :tag => s.version.to_s }
-  s.source_files = 'LN_Label/*.{h,m}'
-  s.resources = 'LN_Label/*.{png}'
+  s.source_files = 'LNLabel/*.{h,m}'
+  s.resources = 'LNLabel/*.{png}'
   # s.framework = ''
   s.dependency  'Masonry'
   s.requires_arc = true
