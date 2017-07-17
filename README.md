@@ -1,6 +1,9 @@
 
 # LN_Label
     一行label搞定协议文本点击事件.
+    
+# 支持cocoaPods 
+    pod 'LN_Label','~>1.0.3'
 # 依赖框架
 ```
     pod 'Masonry' 
