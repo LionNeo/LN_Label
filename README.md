@@ -22,15 +22,15 @@
  ```   
 # 使用说明
 
-    使用的时候,导入头文件
+   ### 使用的时候,导入头文件
     #import <LN_Label/ProtocolLabel.h>
-    ```
+```
     ProtocolLabel *protocolLabel = [ProtocolLabel labelWithFrame:CGRectMake(0, 100, 200, 50) text:@"这是一个<<iOS开发协议>>,请点击同意按钮!" LinkColor:[UIColor redColor] LinkRang:NSMakeRange(0, 4) ButtonClickBlock:^(UIButton *button) {
         NSLog(@"btn 点击");
     } ProtocolLabelActionBlock:^(id label) {
         NSLog(@"label 点击");
     }];
-    ```
+```
     
     此次封装的label适用于,登录界面中关于勾选是否同意协议,并且加入了文字点击事件,使用非常简单一行代码搞定.
     
