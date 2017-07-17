@@ -2,21 +2,21 @@
 # LN_Label
     一行label搞定协议文本点击事件.
 # 依赖框架
-    pod 'Masonry'
-    
+```
+    pod 'Masonry' 
     pod 'TTTAttributedLabel'
-    
+```    
     pod 安装上面两个库后,在ProtocolLabel.m文件中,修改
+    
+ ```   
 #import "TTTAttributedLabel.h"
-
 #import "Masonry.h"
-    
+ ```
     为
-    
+ ```   
 #import <TTTAttributedLabel.h>
-
 #import <Masonry.h>
-    
+ ```   
 # 使用说明
     此次封装的label适用于,登录界面中关于勾选是否同意协议,并且加入了文字点击事件,使用非常简单一行代码搞定.
     
@@ -30,7 +30,7 @@
 
 #define STRONGSELF __strong __typeof(self) strongSelf = weakSelf;
 ```
-# e.g:
+## e.g:
    ``` 
     weakSelf;
     void (^block)() = ^{
