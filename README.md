@@ -30,13 +30,13 @@
 #define STRONGSELF __strong __typeof(self) strongSelf = weakSelf;
 
   ####  e.g:
-    
+   ``` 
     weakSelf;
     void (^block)() = ^{
         strongSelf;
         self.name = @"LionNeo";
     }
-    ```
+   
     
 ## 使用问题,请联系:QQ:123624331
      
