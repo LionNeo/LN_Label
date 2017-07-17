@@ -25,18 +25,19 @@
     需要导入的框架有 masonry 和 TTTAttributedLabel.TTTAttributedLabel已经拖入工程中,实际上只需要导入masonry即可
     
     注意:block中使用self,请使用弱引用加强引用方式
-```#define WEAKSELF __weak __typeof__(self) weakSelf = self;
+```
+#define WEAKSELF __weak __typeof__(self) weakSelf = self;
 
 #define STRONGSELF __strong __typeof(self) strongSelf = weakSelf;
-
-  ####  e.g:
+```
+# e.g:
    ``` 
     weakSelf;
     void (^block)() = ^{
         strongSelf;
         self.name = @"LionNeo";
     }
-   
+   ```
     
 ## 使用问题,请联系:QQ:123624331
      
