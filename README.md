@@ -3,15 +3,18 @@
     一行label搞定协议文本点击事件.
 # 依赖框架
     pod 'Masonry'
+    
     pod 'TTTAttributedLabel'
     
     pod 安装上面两个库后,在ProtocolLabel.m文件中,修改
 #import "TTTAttributedLabel.h"
+
 #import "Masonry.h"
     
     为
     
 #import <TTTAttributedLabel.h>
+
 #import <Masonry.h>
     
 # 使用说明
@@ -31,6 +34,6 @@
         self.name = @"LionNeo";
     }
     
-# 使用问题,请联系:QQ:123624331
+## 使用问题,请联系:QQ:123624331
      
 
