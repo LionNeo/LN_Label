@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  demo
+//  Demo
 //
 //  Created by Lion•Neo on 2017/7/17.
 //  Copyright © 2017年 Lion•Neo. All rights reserved.
 //
 
 #import "ViewController.h"
-
 #import "ProtocolLabel.h"
 @interface ViewController ()
 
@@ -17,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    /*此次封装的label适用于,登录界面中关于勾选是否同意协议,并且加入了文字点击事件,使用非常简单一行代码搞定.
+    /*
+     # LN_Label
+     一行label搞定协议文本点击事件.
+     
+     # 使用说明
+     此次封装的label适用于,登录界面中关于勾选是否同意协议,并且加入了文字点击事件,使用非常简单一行代码搞定.
      
      需要更换图片的话,直接在更换自己的图片文件,在源码中修改图片名字即可
      
@@ -32,8 +36,9 @@
      strongSelf;
      self.name = @"LionNeo";
      }
+     
+     # 使用问题,请联系:QQ:123624331
      */
-    
     ProtocolLabel *label = [ProtocolLabel labelWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 50) text:@"这是一份<<ios开发协议>>,请点击按钮遵守协议!" LinkColor:[UIColor redColor] LinkRang:NSMakeRange(4, 11) ButtonClickBlock:^(UIButton *button) {
         
         NSLog(@"同意按钮已经点击");
@@ -45,6 +50,13 @@
     }];
     
     [self.view addSubview:label];
+
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 
