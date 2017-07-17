@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.source_files = 'LNLabel/*.{h,m}'
   s.resources = 'LNLabel/*.{png}'
   # s.framework = ''
-  # s.dependency  'Masonry'
+  s.dependency = 'Masonry'
+
   s.requires_arc = true
 end
