@@ -52,12 +52,12 @@
 # 使用问题,请联系:QQ:123624331
      
      */
-    ProtocolLabel *label = [ProtocolLabel labelWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 50) text:@"这是一份<<ios开发协议>>,请点击按钮遵守协议!" LinkColor:[UIColor redColor] LinkRang:NSMakeRange(4, 11) ButtonClickBlock:^(UIButton *button) {
+    ProtocolLabel *label = [ProtocolLabel labelWithFrame:CGRectMake(0, 100, 200, 100) text:@"这是一份<<ios开发协议>>,请点击按钮遵守协议!" textFont:24.0 LinkColor:[UIColor redColor] LinkRang:NSMakeRange(4, 11) ButtonClickBlock:^(UIButton *button) {
+        
         NSLog(@"同意按钮已经点击");
     } ProtocolLabelActionBlock:^(id label) {
         
         NSLog(@"协议内容已经点击");
-        
     }];
     
     [self.view addSubview:label];
